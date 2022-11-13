@@ -21,7 +21,8 @@
             employee.City = "Pune";
             employee.Country = "India";
 
-            repo.AddEmployee(employee);
+            //repo.AddEmployee(employee);
+            repo.GetAllEmployee();
 
         }
     }
